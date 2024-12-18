@@ -8,21 +8,21 @@ version = "0.1.1"
 
 [[package]]
 name = "prover-multiple-1"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "prover-multiple-3",
 ]
 
 [[package]]
 name = "prover-multiple-2"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "prover-multiple-3",
 ]
 
 [[package]]
 name = "prover-multiple-3"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "core-multiple-1",
 ]
