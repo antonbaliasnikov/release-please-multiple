@@ -24,6 +24,15 @@
           "path": "Cargo.toml"
         }
       ]
+    },
+    "zkstack": {
+      "component": "zkstack",
+      "extra-files": [
+        {
+          "type": "generic",
+          "path": "Cargo.toml"
+        }
+      ]
     }
   }
 }
