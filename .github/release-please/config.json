@@ -12,7 +12,7 @@
       "extra-files": [
         {
           "type": "generic",
-          "path": "Cargo.toml"
+          "path": "../Cargo.toml"
         }
       ]
     },
