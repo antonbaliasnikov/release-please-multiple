@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/antonbaliasnikov/release-please-multiple/compare/core-v0.1.1...core-v0.1.2) (2024-12-18)
+
+
+### Bug Fixes
+
+* config inside core ([ef541b0](https://github.com/antonbaliasnikov/release-please-multiple/commit/ef541b0d0ee5a022570336c472423c612a7e0112))
+* update core 1 ([daf67b2](https://github.com/antonbaliasnikov/release-please-multiple/commit/daf67b2056268cbfc189c6441afdab9dd24bdf89))
+
 ## [0.1.1](https://github.com/antonbaliasnikov/release-please-multiple/compare/core-v0.1.0...core-v0.1.1) (2024-12-18)
 
 
