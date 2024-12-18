@@ -23,7 +23,6 @@ jobs:
   build-test:
     name: Build and Test
     runs-on: ubuntu-latest
-    working-directory: core
     steps:
 
       - name: Checkout repository
@@ -33,7 +32,9 @@ jobs:
         uses: moonrepo/setup-rust@v1
 
       - name: Build
+        working-directory: core
         run: cargo build
 
       - name: Run tests
+        working-directory: core
         run: cargo test

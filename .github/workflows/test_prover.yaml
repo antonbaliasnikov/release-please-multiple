@@ -23,7 +23,6 @@ jobs:
   build-test:
     name: Build and Test
     runs-on: ubuntu-latest
-    working-directory: prover
     steps:
 
       - name: Checkout repository
@@ -33,7 +32,9 @@ jobs:
         uses: moonrepo/setup-rust@v1
 
       - name: Build
+        working-directory: prover
         run: cargo build
 
       - name: Run tests
+        working-directory: prover
         run: cargo test
