@@ -21,7 +21,7 @@
       "extra-files": [
         {
           "type": "generic",
-          "path": "prover/Cargo.toml"
+          "path": "Cargo.toml"
         }
       ]
     }
