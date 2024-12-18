@@ -1,0 +1,39 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'prover/**'
+      - '.github/workflows/test_prover.yaml'
+  pull_request:
+    paths:
+      - 'prover/**'
+      - '.github/workflows/test_prover.yaml'
+
+# Cancel the workflow if any new changes pushed to a feature branch or the trunk
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+
+jobs:
+
+  build-test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    working-directory: prover
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: moonrepo/setup-rust@v1
+
+      - name: Build
+        run: cargo build
+
+      - name: Run tests
+        run: cargo test

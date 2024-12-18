@@ -1,0 +1,29 @@
+{
+  "separate-pull-requests": true,
+  "group-pull-request-title-pattern": "chore: release ${component} ${version}",
+  "bootstrap_sha": "6754509673b3d9d2ee3a051a908e830e4cc10e52",
+  "bump-minor-pre-major": true,
+  "bump-patch-for-minor-pre-major": true,
+  "include-component-in-tag": true,
+  "release-type": "simple",
+  "packages": {
+    "core": {
+      "component": "core",
+      "extra-files": [
+        {
+          "type": "generic",
+          "path": "Cargo.toml"
+        }
+      ]
+    },
+    "prover": {
+      "component": "prover",
+      "extra-files": [
+        {
+          "type": "generic",
+          "path": "prover/Cargo.toml"
+        }
+      ]
+    }
+  }
+}
