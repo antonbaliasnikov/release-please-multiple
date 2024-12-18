@@ -22,7 +22,7 @@ dependencies = [
 
 [[package]]
 name = "zkstack-multiple-1"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "core-multiple-3",
  "prover-multiple-3",
