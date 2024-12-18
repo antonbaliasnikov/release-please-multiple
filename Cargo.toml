@@ -1,15 +1,15 @@
 [workspace]
 resolver = "2"
 members = [
-    "core-multiple-1",
-    "core-multiple-2",
-    "core-multiple-3"
+    "core/core-multiple-1",
+    "core/core-multiple-2",
+    "core/core-multiple-3"
 ]
 
 [workspace.dependencies]
-core-multiple-1 = { version = "0.1.1", path = "core-multiple-1" }
-core-multiple-3 = { version = "0.1.1", path = "core-multiple-3" }
-prover-multiple-3 = { version = "0.1.1", path = "../prover/prover-multiple-3" }
+core-multiple-1 = { version = "0.1.1", path = "core/core-multiple-1" }
+core-multiple-3 = { version = "0.1.1", path = "core/core-multiple-3" }
+prover-multiple-3 = { version = "0.1.1", path = "prover/prover-multiple-3" }
 
 [workspace.package]
 version = "0.1.1" # x-release-please-version
