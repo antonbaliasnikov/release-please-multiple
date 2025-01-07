@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/antonbaliasnikov/release-please-multiple/compare/core-v0.1.2...core-v0.1.3) (2025-01-07)
+
+
+### Features
+
+* update core multiple ([d4eda11](https://github.com/antonbaliasnikov/release-please-multiple/commit/d4eda1126dc518bd28c04f43352e22667cb8b945))
+
 ## [0.1.2](https://github.com/antonbaliasnikov/release-please-multiple/compare/core-v0.1.1...core-v0.1.2) (2024-12-18)
 
 
