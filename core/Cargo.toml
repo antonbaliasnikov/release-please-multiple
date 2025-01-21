@@ -12,7 +12,7 @@ core-multiple-3 = { version = "0.1.4-no-semver-compat", path = "core-multiple-3"
 prover-multiple-3 = { version = "0.1.2", path = "../prover/prover-multiple-3" }
 
 [workspace.package]
-version = "0.1.4-no-semver-compat"
+version = "0.1.4-not-semver-compat"
 authors = [
     "Anton Baliasnikov <aba@matterlabs.dev>",
 ]
