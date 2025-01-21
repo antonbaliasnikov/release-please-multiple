@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.5](https://github.com/antonbaliasnikov/release-please-multiple/compare/core-v0.1.4...core-v0.1.5) (2025-01-21)
+
+
+### Bug Fixes
+
+* add est ([7fb1422](https://github.com/antonbaliasnikov/release-please-multiple/commit/7fb1422b2f400c238feb334e5eee22689901a33b))
+* test ([29d3680](https://github.com/antonbaliasnikov/release-please-multiple/commit/29d3680891efdd2891d64671b1a7917018f231eb))
+* test ([44825df](https://github.com/antonbaliasnikov/release-please-multiple/commit/44825dfb8fa25cb7ac05ca6d85ebcf57364b05f2))
+* test ([6a9e205](https://github.com/antonbaliasnikov/release-please-multiple/commit/6a9e205871c35eb8d2fe0fd6216dcaef5c479fbf))
+* test ([5574927](https://github.com/antonbaliasnikov/release-please-multiple/commit/5574927f55b248cdbfd1b8077033d9ff17984d5e))
+* test fix ([192b6aa](https://github.com/antonbaliasnikov/release-please-multiple/commit/192b6aacff1fa4d6c23f1a98e34b594e52ec1cfc))
+* try to fix core ([c2ac198](https://github.com/antonbaliasnikov/release-please-multiple/commit/c2ac19883a1c0200e10ad03826b70c921f6b58c4))
+* try to fix core ([f097b11](https://github.com/antonbaliasnikov/release-please-multiple/commit/f097b11226a50e1c457560de72caecd062565787))
+
 ## [0.1.4](https://github.com/antonbaliasnikov/release-please-multiple/compare/core-v0.1.3...core-v0.1.4) (2025-01-21)
 
 
