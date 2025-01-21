@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.4](https://github.com/antonbaliasnikov/release-please-multiple/compare/core-v0.1.3...core-v0.1.4) (2025-01-21)
+
+
+### Bug Fixes
+
+* update core multiple 1 ([1386441](https://github.com/antonbaliasnikov/release-please-multiple/commit/13864411ec7a931e6ff8ead9d4147a86bca11ac4))
+* update core multiple 1 ([755b68b](https://github.com/antonbaliasnikov/release-please-multiple/commit/755b68b0a66e2ad5404fd317c2ddc85b4dbf3616))
+* update core multiple 1 ([397781f](https://github.com/antonbaliasnikov/release-please-multiple/commit/397781f68343d1f0d8d61773e5b6e80a0bdfab2f))
+* update core multiple 1 ([1d123a6](https://github.com/antonbaliasnikov/release-please-multiple/commit/1d123a60fc1698f86454f798e674b7fa03c883a1))
+
 ## [0.1.3](https://github.com/antonbaliasnikov/release-please-multiple/compare/core-v0.1.2...core-v0.1.3) (2025-01-07)
 
 
