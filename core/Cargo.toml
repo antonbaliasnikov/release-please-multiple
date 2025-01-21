@@ -7,11 +7,11 @@ members = [
 ]
 
 [workspace.dependencies]
-core-multiple-1 = { version = "0.1.4-not-semver-compat", path = "core-multiple-1" }
-core-multiple-3 = { version = "0.1.4-not-semver-compat", path = "core-multiple-3" }
+core-multiple-1 = { version = "0.1.5-not-semver-compat", path = "core-multiple-1" }
+core-multiple-3 = { version = "0.1.5-not-semver-compat", path = "core-multiple-3" }
 
 [workspace.package]
-version = "0.1.4-not-semver-compat"
+version = "0.1.5-not-semver-compat"
 authors = [
     "Anton Baliasnikov <aba@matterlabs.dev>",
 ]
