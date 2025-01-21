@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/antonbaliasnikov/release-please-multiple/compare/prover-v0.1.1...prover-v0.1.2) (2025-01-21)
+
+
+### Bug Fixes
+
+* update prover ([06d627e](https://github.com/antonbaliasnikov/release-please-multiple/commit/06d627ec76c360ae39c33877435d69e9b00c0e19))
+
 ## [0.1.1](https://github.com/antonbaliasnikov/release-please-multiple/compare/prover-v0.1.0...prover-v0.1.1) (2024-12-18)
 
 
