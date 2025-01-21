@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.5](https://github.com/antonbaliasnikov/release-please-multiple/compare/core-v0.1.4...core-v0.1.5) (2025-01-21)
+
+
+### Bug Fixes
+
+* add est ([7fb1422](https://github.com/antonbaliasnikov/release-please-multiple/commit/7fb1422b2f400c238feb334e5eee22689901a33b))
+* try to fix core ([f097b11](https://github.com/antonbaliasnikov/release-please-multiple/commit/f097b11226a50e1c457560de72caecd062565787))
+
 ## [0.1.4](https://github.com/antonbaliasnikov/release-please-multiple/compare/core-v0.1.3...core-v0.1.4) (2025-01-21)
 
 
