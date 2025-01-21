@@ -9,7 +9,7 @@ on:
 jobs:
 
   release:
-    uses: matter-labs/zksync-ci-common/.github/workflows/release-please.yaml@aba-release-please-support
+    uses: matter-labs/zksync-ci-common/.github/workflows/release-please.yaml@aba-custom-crates-suffix
     secrets:
       gh_token: ${{ secrets.RELEASE_TOKEN }}
       cargo_registry_token: ${{ secrets.CRATES_IO_TOKEN }}
@@ -21,3 +21,4 @@ jobs:
       update-cargo-lock: true                          # Update Cargo.lock file
       publish-to-crates-io: true                       # Enable publishing to crates.io
       upgrade-dependencies: true                       # Upgrade workspace dependencies
+      version-suffix: '-non_semver_compat'             # Specify the version suffix for the crates
