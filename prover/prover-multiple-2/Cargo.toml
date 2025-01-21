@@ -8,4 +8,3 @@ description = "Release please multiple prover 2"
 publish = false
 
 [dependencies]
-prover-multiple-3.workspace = true

@@ -7,4 +7,3 @@ edition.workspace = true
 description = "Release please multiple 3"
 
 [dependencies]
-prover-multiple-3.workspace = true
