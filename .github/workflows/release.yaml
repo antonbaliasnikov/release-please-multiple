@@ -9,7 +9,7 @@ on:
 jobs:
 
   release:
-    uses: matter-labs/zksync-ci-common/.github/workflows/release-please.yaml@aba-custom-crates-suffix
+    uses: matter-labs/zksync-ci-common/.github/workflows/release-please.yaml@v1
     secrets:
       gh_token: ${{ secrets.RELEASE_TOKEN }}
       cargo_registry_token: ${{ secrets.CRATES_IO_TOKEN }}
@@ -19,6 +19,7 @@ jobs:
       config: '.github/release-please/config.json'     # Specify the path to the configuration file
       org-owner: 'antonbaliasnikov'                    # Specify the organization owner if you want update ownership of the crates
       update-cargo-lock: true                          # Update Cargo.lock file
+      workspace-dirs: 'core prover zkstack_cli'        # Workspace directories to update Cargo.lock
       publish-to-crates-io: true                       # Enable publishing to crates.io
       upgrade-dependencies: true                       # Upgrade workspace dependencies
       version-suffix: 'not-semver-compat'              # Specify the version suffix for the crates
