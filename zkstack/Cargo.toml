@@ -8,8 +8,6 @@ members = [
 prover-multiple-3 = { version = "0.1.2", path = "../prover/prover-multiple-3" }
 core-multiple-3 = { version = "0.1.4-not-semver-compat", path = "../core/core-multiple-3" }
 
-
-
 [workspace.package]
 version = "0.1.5" # x-release-please-version
 authors = [

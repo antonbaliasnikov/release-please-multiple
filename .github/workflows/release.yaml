@@ -40,4 +40,4 @@ jobs:
     steps:
       - name: Check
         run: |
-          echo "tag = ${{ needs.release.outputs.all['zkstack--tag_name'] }}"
+          echo "tag = ${{ fromJSON(needs.release.outputs.all).zkstack--tag_name }}"
