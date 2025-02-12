@@ -31,10 +31,11 @@ jobs:
     steps:
       - name: Check
         run: |
-          echo "${{ needs.release-please.outputs.all['zkstack--release_created'] }}"
+          echo "${{ fromJson(needs.release-please.outputs.all).zkstack--release_created }}"
+          echo "${{ fromJSON(needs.release-please.outputs.all) }}"
 
   release-zkstack-cli-bins:
-    if: ${{ needs.release-please.outputs.all['zkstack--release_created'] == 'true' }}
+    if: ${{ fromJson(needs.release-please.outputs.all).zkstack--release_created == 'true' }}
     needs: release
     runs-on: ubuntu-latest
     steps:
