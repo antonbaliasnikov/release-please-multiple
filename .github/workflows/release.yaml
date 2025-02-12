@@ -19,16 +19,16 @@ jobs:
       config: '.github/release-please/config.json'     # Specify the path to the configuration file
       org-owner: 'antonbaliasnikov'                    # Specify the organization owner if you want update ownership of the crates
       update-cargo-lock: true                          # Update Cargo.lock file
-      workspace-dirs: 'core prover zkstack_cli'        # Workspace directories to update Cargo.lock
+      workspace-dirs: 'core prover zkstack'            # Workspace directories to update Cargo.lock
       publish-to-crates-io: true                       # Enable publishing to crates.io
       upgrade-dependencies: true                       # Upgrade workspace dependencies
       version-suffix: 'not-semver-compat'              # Specify the version suffix for the crates
 
   release-zkstack-cli-bins:
-    if: ${{ needs.release-please.outputs.all['zkstack_cli--release_created'] == 'true' }}
+    if: ${{ needs.release-please.outputs.all['zkstack--release_created'] == 'true' }}
     needs: release
     runs-on: ubuntu-latest
     steps:
       - name: Check
         run: |
-          echo "tag = ${{ needs.release-please.outputs.all['zkstack_cli--tag_name'] }}"
+          echo "tag = ${{ needs.release-please.outputs.all['zkstack--tag_name'] }}"
