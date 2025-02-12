@@ -20,9 +20,20 @@ jobs:
       org-owner: 'antonbaliasnikov'                    # Specify the organization owner if you want update ownership of the crates
       update-cargo-lock: true                          # Update Cargo.lock file
       workspace-dirs: 'core prover zkstack'            # Workspace directories to update Cargo.lock
-      publish-to-crates-io: true                       # Enable publishing to crates.io
-      upgrade-dependencies: true                       # Upgrade workspace dependencies
+      publish-to-crates-io: false                       # Enable publishing to crates.io
+      upgrade-dependencies: false                       # Upgrade workspace dependencies
       version-suffix: 'not-semver-compat'              # Specify the version suffix for the crates
+
+  check:
+    runs-on: ubuntu-latest
+    needs: release
+    if: always()
+    steps:
+      - name: Check
+        run: |
+          echo "${{ needs.release-please.outputs.* }}"
+          echo "${{ needs.release-please.outputs.all }}"
+          echo "${{ needs.release-please.outputs.all['zkstack--release_created'] }}"
 
   release-zkstack-cli-bins:
     if: ${{ needs.release-please.outputs.all['zkstack--release_created'] == 'true' }}
