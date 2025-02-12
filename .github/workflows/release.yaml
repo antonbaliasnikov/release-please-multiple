@@ -31,7 +31,7 @@ jobs:
     steps:
       - name: Check
         run: |
-          echo "${{ fromJSON(needs.release-please.outputs.all) }}"
+          echo "${{ fromJSON(needs.release.outputs.all) }}"
 
 #  release-zkstack-cli-bins:
 #    if: ${{ fromJson(needs.release-please.outputs.all).zkstack--release_created == 'true' }}
