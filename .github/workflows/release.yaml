@@ -33,11 +33,11 @@ jobs:
         run: |
           echo "${{ fromJSON(needs.release-please.outputs.all) }}"
 
-  release-zkstack-cli-bins:
-    if: ${{ fromJson(needs.release-please.outputs.all).zkstack--release_created == 'true' }}
-    needs: release
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check
-        run: |
-          echo "tag = ${{ needs.release-please.outputs.all['zkstack--tag_name'] }}"
+#  release-zkstack-cli-bins:
+#    if: ${{ fromJson(needs.release-please.outputs.all).zkstack--release_created == 'true' }}
+#    needs: release
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Check
+#        run: |
+#          echo "tag = ${{ needs.release-please.outputs.all['zkstack--tag_name'] }}"
